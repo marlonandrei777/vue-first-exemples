@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+
+  @media (min-width: 720px) {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: #252525;
+  color: white;
+  /* cor de texto padrão */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* por padrao esses elementos nao erdam a font do body por isso q definimos eles */
+body,
+input,
+textarea,
+button {
+  font:
+    400 1rem 'Inter',
+    sans-serif;
+}
+
+:root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
